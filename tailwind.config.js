@@ -10,7 +10,8 @@ module.exports = {
         'roboto': ['roboto']
       },
       colors: {
-        'splash-grey': '#A8A8A9'
+        'splash-grey': '#A8A8A9',
+        'textbg-grey': '#F3F3F3'
       }
     },
   },
