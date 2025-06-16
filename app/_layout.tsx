@@ -4,7 +4,11 @@ import './global.css';
 export default function RootLayout() {
   return <Stack initialRouteName="(onboarding)">
     <Stack.Screen
-        name="rootLayout"
+        name="(onboarding)"
+        options={{headerShown:false}}
+    />
+    <Stack.Screen
+        name="init"
         options={{headerShown:false}}
     />
     <Stack.Screen
@@ -12,9 +16,8 @@ export default function RootLayout() {
       options={{headerShown:false}}
     />
     <Stack.Screen
-        name="(onboarding)"
-        options={{headerShown:false}}
-    />
-
+      name="(auth)"
+      options={{headerShown:false}}
+      />
   </Stack>;
 }
