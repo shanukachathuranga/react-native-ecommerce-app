@@ -41,7 +41,7 @@ const index = () => {
             showsHorizontalScrollIndicator={false}
             horizontal
             data={onboardingSlides}
-            renderItem={({item}) => <OnboardingSlide {...item}/>}
+            renderItem={({item}) => <OnboardingSlide {...item} handleOnboardingExit={handleOnboardingExit}/>}
             pagingEnabled
             bounces={false}
             keyExtractor={(item) => item.id}
