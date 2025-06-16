@@ -1,5 +1,4 @@
 import React from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
 import {useFonts} from "expo-font";
 import {Redirect} from "expo-router";
 
