@@ -8,16 +8,18 @@ import search from './search.png';
 import settings from './settings.png';
 import shoppingCart from './shopping-cart.png';
 import userIcon from './user-icon.png';
+import mailIcon from './mail-icon.png';
 
 export {
-  appleLogo,
-  facebookLogo,
-  favourites,
-  googleLogo,
-  home,
-  passwordIcon,
-  search,
-  settings,
-  shoppingCart,
-  userIcon
+    appleLogo,
+    facebookLogo,
+    favourites,
+    googleLogo,
+    home,
+    passwordIcon,
+    search,
+    settings,
+    shoppingCart,
+    userIcon,
+    mailIcon
 };
